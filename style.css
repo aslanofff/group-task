@@ -51,24 +51,29 @@ body {
 }
 
 .feedback-section-d {
-  background-color: #fff;
+  background-color: #c0c0c0;
   padding: 40px 20px;
   margin-top: 40px;
   text-align: left;
+  height: 80vh;
 }
 
 .feedback-section-d h1 {
   font-size: 55px;
   text-align: left;
+  margin-left: 200px;
 }
 
 .feedback-card-d {
-  width: 791px;
+  /* width: 791px; */
   margin: 0;
-  background-color: #f9f9f9;
+  background-color: #fefefe;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+  box-shadow: 4px 6px 10px black;
+  height: 50vh;
+  width: 90vh;
+  margin-left: 200px;
 }
 
 .feedback-card-d p {
@@ -85,7 +90,7 @@ body {
 }
 
 .user-info-d strong {
-  font-size: 1.2em;
+  font-size: 30px;
   color: #333;
 }
 
@@ -103,18 +108,31 @@ body {
   .card-d p {
     font-size: 14px;
   }
-  .feedback-section-d h1 {
-    font-size: 32px;
+  .feedback-section-d {
+    height: 60vh;
   }
   .feedback-card-d {
-    width: 55%;
+    height: 35vh;
+    width: 60vw;
+    margin-left: 80px;
+  }
+  .feedback-section-d h1 {
+    font-size: 32px;
+    margin-left: 100px;
   }
   .feedback-card-d p {
-    font-size: 12px;
+    font-size: 16px;
+  }
+  .user-info-d strong {
+    font-size: 17px;
+  }
+  .prophile-d {
+    width: 110px;
+    height: 97px;
   }
 }
 
-@media (max-width: 990px) {
+@media screen and (min-width: 320px) and (max-width: 990px) {
   .grid-d {
     grid-template-columns: 1fr;
   }
@@ -138,19 +156,25 @@ body {
 
   .feedback-section-d {
     padding: 20px 10px;
+    height: 60vh;
+    /* width: 100%; */
   }
 
   .feedback-card-d {
-    width: 80%;
-    padding-left: 30px;
-    padding-right: 30px;
+    width: 60%;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    margin-left: 80px;
+    height: 30vh;
   }
 
   .feedback-section-d h1 {
     font-size: 26px;
+    margin-left: 80px;
   }
   .feedback-card-d p {
     font-size: 10px;
+    
   }
 
   .user-info-d strong {
